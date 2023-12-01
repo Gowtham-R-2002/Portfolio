@@ -12,6 +12,9 @@
     text-align: center;
     overflow: hidden;
   }
+  .greet{
+    color: antiquewhite;
+  }
   .mypic{
     padding-bottom: 3% !important;
     height: 100vh !important;

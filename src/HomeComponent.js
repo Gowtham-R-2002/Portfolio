@@ -49,7 +49,7 @@ function HomeComponent() {
 
       <div id='show' className="col-lg-6 col-md-6 col-6">
         <div id='show-img' className='container'>
-          <p>Greetings from the <span className='typed-text'><Typewriter
+          <p className='greet'>Greetings from the <span className='typed-text'><Typewriter
             options={{
               strings: ['Java Dev', 'Web Dev', 'React Dev'],
               autoStart: true,
