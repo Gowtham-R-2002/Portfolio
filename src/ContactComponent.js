@@ -10,6 +10,9 @@ function ContactComponent() {
   const instaPress = () => {
     window.open('https://www.instagram.com/_gowtham__ramesh_/')
   }
+  const waPress = () =>{
+    window.open('https://wa.me/918531911113?text="Hi%20There!"')
+  }
   return (
     <motion.div
       className='row about'
@@ -26,9 +29,9 @@ function ContactComponent() {
       />
       <div className='heading'>Contact Me  <i class="fa-solid fa-phone"></i></div>
       <div className='social'>
-        <AwesomeButtonSocial style={{height : '15vh'}} type='whatsapp' sharer={{ phone: '+918531911113' }}>Whatsapp</AwesomeButtonSocial>
-        <AwesomeButtonSocial style={{height : '15vh'}} type='linkedin' onPress={liPress}>LinkedIn</AwesomeButtonSocial>
-        <AwesomeButtonSocial style={{height : '15vh'}} type='instagram' onPress={instaPress}>Instagram</AwesomeButtonSocial>
+        <AwesomeButtonSocial type='whatsapp' onPress={waPress}>Whatsapp</AwesomeButtonSocial>
+        <AwesomeButtonSocial type='linkedin' onPress={liPress}>LinkedIn</AwesomeButtonSocial>
+        <AwesomeButtonSocial type='instagram' onPress={instaPress}>Instagram</AwesomeButtonSocial>
       </div>
 
 

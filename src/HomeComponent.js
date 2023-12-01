@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './HomeComponent.css'
 import { motion } from 'framer-motion'
 import Typewriter from 'typewriter-effect';
@@ -10,6 +10,30 @@ import 'react-awesome-button/dist/styles.css';
 import { Link } from 'react-router-dom';
 
 function HomeComponent() {
+  useEffect(() => {
+    const checkOrientation = () => {
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        const remo = document.getElementById('new-div');
+        remo.classList.remove('col-6');
+        remo.classList.remove('col-md-6');
+        const show = document.getElementById('show');
+        show.classList.remove('col-6');
+        show.classList.remove('col-md-6');
+    }
+    };
+
+    // Initial check
+    checkOrientation();
+
+    // Add event listener for orientation change
+    window.addEventListener('orientationchange', checkOrientation);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('orientationchange', checkOrientation);
+    };
+  }, []);
+
   return (
     <motion.div
       className='row'
@@ -21,8 +45,8 @@ function HomeComponent() {
         ease: [1.0, 0.71, 0.2, 1.01]
       }}>
 
-      <div className="col-lg-6 col-sm-6 col-6">
-        <div className='container'>
+      <div id='show' className="col-lg-6 col-md-6 col-6">
+        <div className='container pic-768'>
           <p>Greetings from the <span className='typed-text'><Typewriter
             options={{
               strings: ['Java Dev', 'Web Dev', 'React Dev'],
@@ -38,7 +62,7 @@ function HomeComponent() {
           </div></p>
         </div>
       </div>
-      <div className="col-lg-6 col-sm-6 col-6">
+      <div id='new-div' className="col-lg-6 col-md-6 col-6">
       <div className='container mypic'>
           <img className='img-fluid' alt='mypicture' src={myimg}></img>
         </div>

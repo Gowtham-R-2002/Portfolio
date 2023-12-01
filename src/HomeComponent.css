@@ -55,4 +55,10 @@
   .container p{
     font-size: 1.5rem;
   }
+  .pic-768{
+    background: url("./myimg.png");
+  }
+  .mypic{
+    display: none;
+  }
 }
