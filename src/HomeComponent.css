@@ -1,0 +1,58 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  .mypic{
+    padding-bottom: 3% !important;
+    height: 100vh !important;
+    padding-top: 25% !important;
+    overflow: hidden !important;
+  }
+  .container p span.typed-text {
+    font-weight: 900 !important;
+    font-family: 'Poppins' !important;
+    color: #dd7732;
+
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+.bio{
+  font-size:medium !important;
+  color: #ccc;
+}
+
+.link-left{
+  display: flex !important;
+  margin-left: 7% !important;
+}
+
+@media (max-width : 768px){
+  .container p{
+    font-size: 1.5rem;
+  }
+}

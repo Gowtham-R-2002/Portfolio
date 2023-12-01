@@ -1,0 +1,47 @@
+.project-title{
+    width: auto !important;
+    padding: 1.5% 2% !important;
+}
+
+@media (max-width : 768px){
+    .project-title{
+        width : 90% !important;
+    }
+}
+.link-btn{
+    margin: auto !important;
+}
+.link-btn:hover{
+    cursor:pointer;
+}
+
+.aws-btn{
+    --button-default-height: 44px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 4px ;
+    --button-horizontal-padding: 16px;
+    --button-raise-level: 4px;
+    --button-hover-pressure: 1;
+    --transform-speed: 0.15s;
+    --button-primary-color: #dd7732;
+    --button-primary-color-dark: #a45a28;
+    --button-primary-color-light: #ffffff;
+    --button-primary-color-hover: #ee8b49;
+    --button-primary-color-active: #dd7732;
+    --button-primary-border: none;
+    --button-secondary-color: #dd7732;
+    --button-secondary-color-dark:  #a45a28;
+    --button-secondary-color-light: #ffffff;
+    --button-secondary-color-hover:#ee8b49;
+    --button-secondary-color-active:  #dd7732;
+    --button-secondary-border: none !important;
+    --button-secondary-border-radius : 4px !important;
+}
+
+.custom-hr{
+    margin: auto;
+    margin-bottom:2.5vh !important;
+    width: 50% !important;
+    border-top: 1px dotted #dd7732;
+    opacity: .2;
+}

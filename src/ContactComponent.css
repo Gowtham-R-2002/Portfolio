@@ -1,0 +1,9 @@
+.social{
+    width: 50% !important;
+    height: auto !important;
+    display: flex !important;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh !important;
+}

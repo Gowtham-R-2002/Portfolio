@@ -1,0 +1,25 @@
+.cus{
+    display: flex !important;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
+}
+.aws-btn {
+    --button-default-height: 44px;
+    --button-default-font-size: 15px;
+    --button-default-border-radius: 25px !important;
+    --button-horizontal-padding: 17px !important;
+    --button-raise-level: 5px !important;
+    --button-hover-pressure: 3.25 !important;
+    --transform-speed: 0.1s !important;
+    --button-primary-color: #000000 !important;
+    --button-primary-color-dark: #ffffff !important;
+    --button-primary-color-light: #ffffff !important;
+    --button-primary-color-hover: #dd7732 !important;
+    --button-primary-color-active: #000000 !important;
+    --button-primary-border: 1px solid white !important;
+}
+/* .aws-btn--primary .aws-btn__content {
+    background: var(--button-primary-color);
+    color: var(--button-primary-color-dark) !important;
+    border: var(--button-primary-border);
+} */
