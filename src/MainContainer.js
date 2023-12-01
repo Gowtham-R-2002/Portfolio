@@ -13,14 +13,9 @@ function MainContainer() {
 
   useEffect(() => {
     const checkOrientation = () => {
-      if (window.matchMedia("(orientation: landscape)").matches) {
-        // User is in landscape mode
-        console.log("Landscape mode");
-      } else {
-        // User is not in landscape mode
-        alert("Please switch to landscape mode for a better experience.");
-        toast("It's better in Landscape");
-      }
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        toast("This website is better in Laptop view !");
+    }
     };
 
     // Initial check

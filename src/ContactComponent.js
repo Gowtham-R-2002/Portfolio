@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion, useScroll } from "framer-motion";
-import { AwesomeButton, AwesomeButtonSocial } from 'react-awesome-button';
-import MailIcon from '@mui/icons-material/Mail';
+import { AwesomeButtonSocial } from 'react-awesome-button';
 import './ContactComponent.css'
 function ContactComponent() {
   const { scrollYProgress } = useScroll();

@@ -6,6 +6,7 @@
 @media (max-width : 768px){
     .project-title{
         width : 90% !important;
+        padding: 3% !important;
     }
 }
 .link-btn{
