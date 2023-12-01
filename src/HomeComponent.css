@@ -52,8 +52,8 @@
 }
 .pic-768{
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.79)),url("myimg.png") !important;
-  background-size:contain;
-  object-fit:contain;
+  background-size:cover;
+  object-fit:fill;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
 }
