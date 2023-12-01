@@ -35,7 +35,7 @@ function AboutComponent() {
         <br />
         Besides those skills, I have leadership qualities, good teamplaying capabilities, strong determination to grow, and more.
         <br />
-        Eventhought I have these qualities, I still lack in some places like, getting panicked sometimes, also  
+        Eventhough I have these qualities, I still lack in some places like, getting panicked sometimes, also  
         getting nervous on simple things. But I'm sure, in upcoming days, I'll try to improve myself.
       </div>
       <hr className='custom-hr'/>
