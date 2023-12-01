@@ -50,13 +50,16 @@
   display: flex !important;
   margin-left: 7% !important;
 }
-
+.pic-768{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.79)),url("myimg.png") !important;
+  background-size:contain;
+  object-fit:contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+}
 @media (max-width : 768px){
   .container p{
     font-size: 1.5rem;
-  }
-  .pic-768{
-    background: url("./myimg.png");
   }
   .mypic{
     display: none;

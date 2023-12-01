@@ -19,6 +19,8 @@ function HomeComponent() {
         const show = document.getElementById('show');
         show.classList.remove('col-6');
         show.classList.remove('col-md-6');
+        const showImg = document.getElementById('show-img');
+        showImg.classList.add('pic-768');
     }
     };
 
@@ -46,7 +48,7 @@ function HomeComponent() {
       }}>
 
       <div id='show' className="col-lg-6 col-md-6 col-6">
-        <div className='container pic-768'>
+        <div id='show-img' className='container'>
           <p>Greetings from the <span className='typed-text'><Typewriter
             options={{
               strings: ['Java Dev', 'Web Dev', 'React Dev'],
