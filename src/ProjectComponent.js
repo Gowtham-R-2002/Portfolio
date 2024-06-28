@@ -41,8 +41,9 @@ function ProjectComponent() {
             <h4 className='project-title'>Voice-GPT</h4>
             <h6><Animation />An app that is made to respond with ChatGPT’s response in a way that accepts
                 voice input and voice output in native languages. Built using HTML5, CSS3,
-                Bootstrap, ChatGPT API and Python</h6>
+                Bootstrap, ChatGPT API and Python Flask</h6>
             <p> Duration : Aug,2023 - Aug,2023</p>
+                    
             <hr className='custom-hr'/>
             <div className='heading'>Certificates <i class="fa-solid fa-award"></i></div>
             <h6><Animation />Certified on Java Development by Udemy </h6>
