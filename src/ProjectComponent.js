@@ -32,6 +32,12 @@ function ProjectComponent() {
             <h6><Animation /> A dynamic web app that handles every transaction of the textile showroom. Built
                 using HTML5, CSS3, Bootstrap, JavaScript, PHP and MySQL</h6>
             <p> Duration Jun, 2022 - Aug, 2022</p>
+                    
+            <h4 className='project-title'>GLR Book stall</h4>
+            <h6><Animation /> An E-Commerce website that has basic functionalities from registraion
+                to payment like modules. Built with HTML, CSS, jQuery, Bootstrap, PHP and MySQL.</h6>
+            <p> Duration Jan, 2023 - Mar, 2023</p>
+                    
             <h4 className='project-title'>Voice-GPT</h4>
             <h6><Animation />An app that is made to respond with ChatGPT’s response in a way that accepts
                 voice input and voice output in native languages. Built using HTML5, CSS3,
