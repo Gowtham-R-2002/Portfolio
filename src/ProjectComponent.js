@@ -34,7 +34,7 @@ function ProjectComponent() {
             <p> Duration Jun, 2022 - Aug, 2022</p>
                     
             <h4 className='project-title'>GLR Book stall</h4>
-            <h6><Animation /> An E-Commerce website that has basic functionalities from registraion
+            <h6><Animation /> An E-Commerce website that has basic functionalities from registration
                 to payment like modules. Built with HTML, CSS, jQuery, Bootstrap, PHP and MySQL.</h6>
             <p> Duration Jan, 2023 - Mar, 2023</p>
                     
