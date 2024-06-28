@@ -51,8 +51,6 @@ function AboutComponent() {
       <h4>Internships <i class="fa-solid fa-award"></i></h4>
       <h6>CodeClause Internship - Java Development Intern</h6>
       <p>Duration : Aug 1, 2023 - Sep 1, 2023</p>
-      <h6>Graspear Solutions - React Development Intern</h6>
-      <p>Duration : Oct 18,2023 - present</p>
       <h4>Workshops <i class="fa-solid fa-code"></i></h4>
       <h6>National Institite of Technology, Trichy</h6>
       <p>Competitive Programming and Algorithms - Mar, 2023</p>
